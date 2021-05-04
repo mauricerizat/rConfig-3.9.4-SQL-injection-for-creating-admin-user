@@ -9,5 +9,4 @@ https://192.168.95.57:8081/commands.inc.php?searchOption=contains&searchField=vu
 #### Things that can be changed:
 * Obviously the username can be change. 
 * The password field can be changed too. Just replace it with the corresponding md5 hash.
-* For changing the id field make sure its a value between 200 and 900 (inclusive).
-
+* For changing the id field, better keep it small (like between 200 and 900).
